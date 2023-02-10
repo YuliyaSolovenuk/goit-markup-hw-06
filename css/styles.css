@@ -540,6 +540,46 @@ body {
   background-color: #31d0aa;
 }
 
+.footer-subscribe-container {
+  margin-left: 80px;
+}
+
+.footer-subscribe-text {
+  margin-bottom: 16px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-txt-cl);
+}
+
+.footer-subscribe-form {
+  display: flex;
+}
+
+.footer-input {
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  background-color: transparent;
+}
+
+.footer-input::placeholder .footer-subscribe-btn {
+  margin-left: 24px;
+  padding: 8px 24px;
+
+  color: var(--white-txt-cl);
+  background-color: var(--primary-brand-bg-cl);
+}
+
+.footer-subscribe-btn {
+  display: flex;
+  justify-content: center;
+}
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* -------------------------- */
 /* -------Portfolio---------- */
