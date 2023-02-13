@@ -530,6 +530,10 @@ body {
   color: var(--white-txt-cl);
 }
 
+.footer-socials-list {
+  gap: 16px;
+}
+
 .footer-social-link {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color var(--transition-delay) var(--transition-tim-fun);
@@ -558,6 +562,11 @@ body {
   display: flex;
 }
 
+.footer-form-label {
+  display: block;
+  margin-right: 24px;
+}
+
 .footer-input {
   padding: 8px 16px;
   min-width: 264px;
@@ -566,7 +575,6 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  margin-right: 24px;
   color: var(--white-txt-cl);
   background-color: transparent;
 }
@@ -716,8 +724,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 408px;
-  height: auto;
-  padding: 0 24px;
+  height: 584px;
+  padding: 72px 24px 24px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -771,7 +779,7 @@ body {
 
 .modal-proposition {
   text-align: center;
-  margin: 72px 24px 8px 24px;
+  margin-bottom: 16px;
 
   font-weight: 500;
   font-size: 16px;
@@ -889,6 +897,7 @@ body {
 .modal-form-check-desc {
   display: flex;
   align-items: center;
+  margin-top: 16px;
   margin-bottom: 24px;
 
   font-weight: 400;
